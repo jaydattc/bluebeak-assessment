@@ -1,0 +1,23 @@
+th {
+  text-transform: capitalize;
+  padding: 0.5rem 0.25rem;
+  height: 56px;
+  font-size: 12px;
+}
+tr:not(:first-of-type) th:hover,
+tr:not(:first-of-type) th:active {
+  background-color: rgb(235, 235, 235);
+}
+tbody tr:hover,
+tbody tr:active {
+  background-color: rgb(235, 235, 235);
+}
+tr:not(:first-of-type) th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  word-break: break-word;
+}
+td {
+  font-size: 12px;
+  height: 32px;
+}
