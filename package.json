@@ -31,7 +31,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "./bluebeak-assessment/",
   "browserslist": {
     "production": [
       ">0.2%",
