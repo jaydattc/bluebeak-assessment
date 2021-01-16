@@ -113,7 +113,7 @@ function App() {
         totalVotes={totalVotes}
         data={data.senate_state}
       />
-      <div>
+      <div style={{ maxWidth: "300px" }}>
         <Header>What it means</Header>{" "}
         <SparkLinesList>
           <Sparklines data={chancesOfWinningWorldCupList}>

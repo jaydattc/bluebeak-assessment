@@ -3,14 +3,6 @@ import { useResizeColumns, useSortBy, useTable } from "react-table";
 import "./index.css";
 
 const Table = ({ columns, data, onRowHover, onRowMouseLeave }) => {
-  const defaultColumn = React.useMemo(
-    () => ({
-      minWidth: 30,
-      width: 150,
-      maxWidth: 400,
-    }),
-    [],
-  );
   const {
     getTableProps,
     getTableBodyProps,
@@ -21,10 +13,8 @@ const Table = ({ columns, data, onRowHover, onRowMouseLeave }) => {
     {
       columns,
       data,
-      defaultColumn,
     },
     useSortBy,
-    useResizeColumns,
   );
 
   return (
